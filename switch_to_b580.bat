@@ -5,7 +5,11 @@ if exist environment.bat (set TARGET=webui) else (set TARGET=comfyui)
 echo Found %TARGET%.
 
 echo Install torch for Arc B580...
-if %TARGET%==webui (call environment.bat) else set PATH=%CD%\python_embeded;%PATH%
+if %TARGET%==webui (
+  call environment.bat
+  python system\python\get-pip.py
+) else set PATH=%CD%\python_embeded;%PATH%
+
 python -m pip install torch==2.5.1+cxx11.abi torchvision==0.20.1+cxx11.abi torchaudio==2.5.1+cxx11.abi intel-extension-for-pytorch==2.5.10+xpu "numpy<2" --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/bmg/us
 
 
