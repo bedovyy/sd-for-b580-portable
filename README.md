@@ -12,7 +12,7 @@ A converter enabling the portable release of the Stable Diffusion tool listed be
 3. Copy `switch_to_b580.bat` to where `run*.bat` exists
 4. Run `switch_to_b580.bat`
 
-Or simple download converted one from [Releases page](https://github.com/bedovyy/sd-for-b580-portable/releases).
+Or simply download converted one from [Releases page](https://github.com/bedovyy/sd-for-b580-portable/releases).
 
 After converting, follow the guide of the tool.
 - ComfyUI: https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file#windows-portable
