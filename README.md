@@ -1,6 +1,6 @@
 # ComfyUI & stable-diffusion-webui Converter for Arc B580
 
-A converter enabling the portable release of the Stable Diffusion tool listed below to operate on an Intel Arc B580.
+A converter enabling the portable release of the Stable Diffusion tool listed below to operate on Intel Arc B580.
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 - [stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)
 - [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
