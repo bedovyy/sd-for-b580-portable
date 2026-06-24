@@ -1,3 +1,5 @@
+## This project is being archived as ComfyUI now officially supports portable version for XPU and PyTorch's XPU support has matured enough.
+
 # ComfyUI & stable-diffusion-webui Converter for Arc B580
 
 A converter enabling the portable release of the Stable Diffusion tool listed below to operate on Intel Arc B580.
